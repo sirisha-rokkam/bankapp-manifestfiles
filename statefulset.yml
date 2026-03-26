@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: shaikmustafa/bankapp:db
+        image: sirisharokkam/bloodbank:dbimage
         ports:
         - containerPort: 80
           name: web
