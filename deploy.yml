@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: sirisharokkam/bloodbank:appimage
+        image: sirisharokkam/bloodbank:appimage-25
         ports:
         - containerPort: 80
 
